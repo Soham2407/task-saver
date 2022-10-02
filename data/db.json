@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "id": "1664717524209",
+      "title": "Watch IPL",
+      "isChecked": false
+    },
+    {
+      "id": "1664718130967",
+      "title": "Task done",
+      "isChecked": true
+    }
+  ]
+}

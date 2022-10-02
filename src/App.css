@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+.search {
+  min-width: 18rem;
+  max-width: 22rem;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0.25em;
+  height: 25px;
+  width: 25px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.list-item-label {
+  margin: 0;
+  font-size: 1.2rem;
+  flex-grow: 1;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+.edit-btn:hover {
+  color: blue;
+}
+
+.items-section {
+  width: 80%;
+}
+
+.add-items {
+  min-width: 360px;
+  max-width: 450px;
+}
